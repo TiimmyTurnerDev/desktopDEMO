@@ -1,0 +1,54 @@
+.contacts {
+  position: relative;
+
+  padding-top: 200px;
+  padding-bottom: 55px;
+  background-image: url("./../img/BgGirl.png");
+  background-size: cover;
+  color:$black-color;
+
+  &:before {
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 743px;
+    height: 372px;
+    background-image: url("./../img/OvalGirl.svg");
+    background-size: initial;
+
+  }
+
+  &:after {
+    position: absolute;
+    bottom: 34px;
+    left: 50%;
+    content: "";
+    display: block;
+    width: 478px;
+    height: 652px;
+    margin-left: 79px;
+    background-image: url("./../img/rebranding/balloon.png");
+    background-repeat: no-repeat;
+    background-size: initial;
+
+
+  }
+}
+
+.contact__info {
+  max-width: 360px;
+}
+
+.contact__title {
+  margin-bottom: 15px;
+}
+
+.contact__text {
+  margin-bottom: 30px;
+  max-width: 342px;
+}
+
+.button {
+}

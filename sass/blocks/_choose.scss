@@ -1,0 +1,50 @@
+.choose {
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+.choose__row {
+  display: flex;
+  height: 500px;
+}
+.choose__title {
+    font-size: 25px;
+    text-align: center;
+    span{
+        font-size: 45px;
+        color: $accent-color;
+    }
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(238, 227, 227);
+
+  h2 {
+    padding: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+  }
+
+  h2:hover {
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+  }
+
+  button {
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+
+
+  }
+  button:hover {
+    box-shadow: 0px 17px 42px rgba(0, 0, 0, 0.27);
+    cursor: pointer;
+  }
+
+}
