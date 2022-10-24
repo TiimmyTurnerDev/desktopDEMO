@@ -1,5 +1,7 @@
 const form = document.querySelector('.form');
 const input = document.querySelector('.form__input');
+const cols = document.querySelectorAll('.col')
+const chooseButton = document.querySelector('.choose__button')
 
 input.addEventListener('focus', ()=>{
     form.classList.add('form--active');
@@ -8,7 +10,6 @@ input.addEventListener('blur', ()=>{
     form.classList.remove('form--active'); 
 })
 
-const cols = document.querySelectorAll('.col')
 
 document.addEventListener('keydown', (event) => {
   event.preventDefault()
@@ -16,6 +17,11 @@ document.addEventListener('keydown', (event) => {
     setRandomColors()
   }
 })
+chooseButton.addEventListener('click', ()=>{
+  setRandomColors()
+})
+
+
 
 document.addEventListener('click', (event) => {
   const type = event.target.dataset.type

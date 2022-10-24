@@ -3,18 +3,23 @@
     padding-bottom: 50px;    
 }
 .choose__row {
+  margin-top: 25px;
   display: flex;
   height: 500px;
 }
 .choose__title {
     font-size: 25px;
     text-align: center;
-    span{
-        font-size: 45px;
-        color: $accent-color;
-    }
+  
 }
 
+.choose__button {
+  font-size: 45px;
+
+  &:hover{
+    color: $accent-color-hover;
+  }
+}
 .col {
   flex: 1;
   display: flex;
