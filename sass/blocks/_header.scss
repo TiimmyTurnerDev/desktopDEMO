@@ -7,17 +7,19 @@
 }
 
 .header__text {
-width: 500px;
+width: 600px;
 }
 
 .header__title {
     position: relative;
     z-index: 9;
     margin-right: -160px;
-    color: $accent-color;;
+    color: $accent-color;
+    text-transform: uppercase;
+
 
   margin-bottom: 25px;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 1.46;
 }
@@ -30,7 +32,7 @@ margin-bottom: 1em;
 
 .header__img img{
 
-    border-radius: 40px 40px 40px 0;
+    transform: scale(-1, 1)
 }
 
 .header__form {
